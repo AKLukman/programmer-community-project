@@ -1,0 +1,14 @@
+.header-container{
+    background: rgba(0, 0, 0, 0.7)url(../../images/programmer.png);
+   
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 200px;
+    padding-top: 30px;
+  
+}
+
+.header-title{
+    text-align: center;
+    color: white;
+}

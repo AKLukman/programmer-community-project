@@ -1,0 +1,10 @@
+
+.card{
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img{margin-top: 10px;
+    border-radius: 50%;
+}
