@@ -4,10 +4,13 @@ import Programmer from '../Programmer/Programmer';
 import './Programmers.css'
 
 const Programmers = () => {
-
+    // This useState for programmers
     const [programmers, setProgrammers] = useState([])
+
+    // This useState for cart
     const [cart, setCart] = useState([]);
 
+    // Load data using useEfect
     useEffect(() => {
         fetch('./programers.json')
             .then(res => res.json())
@@ -41,7 +44,6 @@ const Programmers = () => {
 
             <div className="cost-cart">
                 <Cart
-
                     key={cart.id}
                     cart={cart}
 

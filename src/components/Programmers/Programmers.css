@@ -12,10 +12,16 @@
     grid-gap: 10px;
 }
 
+/* cart */
 .cost-cart{
     background-color: lightskyblue;
-    position: fixed;
-    margin-left: 1000px;
+    height: 80px; 
     padding:0 20px;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+        
+    
+
+ 

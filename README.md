@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Programmer Community
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Programmer Community App](https://programmer-community.netlify.app/).
 
 ## Available Scripts
+* This app for programmers
+* We can check programmers cost
+* We can see programmers details
 
 In the project directory, you can run:
 

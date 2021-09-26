@@ -1,3 +1,11 @@
-.names{
-    scroll-behavior: smooth;
+.programer-names{
+    background-color: lightskyblue; 
+    position: relative;
+    bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+   
+    
 }
