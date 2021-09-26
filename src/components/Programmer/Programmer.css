@@ -8,3 +8,12 @@
 .card img{margin-top: 10px;
     border-radius: 50%;
 }
+
+.btn-regular{
+    background-color: maroon;
+    padding: 8px 50px;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

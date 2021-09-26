@@ -1,16 +1,27 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Programmer from '../Programmer/Programmer';
 import './Programmers.css'
 
 const Programmers = () => {
 
     const [programmers, setProgrammers] = useState([])
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('./programers.json')
             .then(res => res.json())
             .then(data => setProgrammers(data))
     }, [])
+
+
+
+    const addToCart = programmer => {
+
+        const newCart = [...cart, programmer];
+
+        setCart(newCart)
+    }
 
     return (
         <div className="programmers">
@@ -20,6 +31,7 @@ const Programmers = () => {
 
                         key={programmer.id}
                         programmer={programmer}
+                        addToCart={addToCart}
 
                     ></Programmer>
                     )
@@ -28,7 +40,12 @@ const Programmers = () => {
 
 
             <div className="cost-cart">
-                <p>Total Cost: </p>
+                <Cart
+
+                    key={cart.id}
+                    cart={cart}
+
+                ></Cart>
             </div>
 
         </div>

@@ -11,3 +11,11 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
 }
+
+.cost-cart{
+    background-color: lightskyblue;
+    position: fixed;
+    margin-left: 1000px;
+    padding:0 20px;
+    border-radius: 10px;
+}

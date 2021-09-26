@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "img": "hhttps://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "img": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Ruman Ahmed",
     "age": 45,
     "country": "USA",
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "img": "hhttps://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "img": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "name": "Ruman Ahmed",
     "age": 45,
     "country": "England",
